@@ -1,0 +1,39 @@
+.shape{
+    padding: 20px;
+    margin: 20px;
+}
+
+.logo {
+    width: 180px;
+    margin-right: 20px;
+    overflow: hidden;
+    background-size: contain;
+}
+.header-home-page {
+    background-image: url(/image/Untitled.png);
+    height: 460px;
+}
+.ant-row-no-wrap {
+    flex-wrap: nowrap;
+}
+.ant-row, .ant-row:after, .ant-row:before {
+    display: flex;
+}
+.ant-layout, .ant-layout * {
+    box-sizing: border-box;
+}
+
+.ant-row {
+    flex-flow: row wrap;
+}
+.star{
+    /*border: 30px solid;*/
+    padding: 50px;
+    width: 500px;
+    height: 200px;
+    color: red;
+    margin: 20px;
+    box-sizing: border-box;
+    background: cornflowerblue;
+    margin-left: 50px;
+}
